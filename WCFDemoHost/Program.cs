@@ -22,7 +22,7 @@ namespace WCFDemoHost
                     }
 
                     host.Open();
-                    Console.WriteLine("The WCFService_Demo Service started at : " + DateTime.Now.ToString());
+                    Console.WriteLine("The WCFService_Demo Service started at the time: " + DateTime.Now.ToString());
                     Console.ReadLine();
                 }
             }
